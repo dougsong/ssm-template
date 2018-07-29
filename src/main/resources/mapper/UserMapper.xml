@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.swpu.stubec.mapper.UserMapper">
+
+    <!--<select id="findUser" parameterType="cn.swpu.stubec.pojo.User" resultType="cn.swpu.stubec.pojo.User">-->
+        <!--SELECT * FROM user WHERE username = #{username} AND password = #{password};-->
+    <!--</select>-->
+
+    <!--<insert id="addUser" parameterType="com.em.smart.pojo.SsUser">-->
+        <!--INSERT INTO ss_user VALUES (#{id}, #{username}, #{password}, #{name}, #{phoneNumber},-->
+        <!--#{gender}, #{email}, #{age}, #{createTime}, #{updateTime});-->
+    <!--</insert>-->
+
+    <!--<update id="updateUserById" parameterType="com.em.smart.pojo.SsUser">-->
+        <!--UPDATE ss_user-->
+        <!--SET username = #{username},-->
+            <!--password = #{password},-->
+            <!--name = #{name},-->
+            <!--phoneNumber = #{phoneNumber},-->
+            <!--gender = #{gender},-->
+            <!--email = #{email},-->
+            <!--age = #{age},-->
+            <!--createTime = #{createTime},-->
+            <!--updateTime = #{updateTime}-->
+        <!--WHERE id = #{id};-->
+    <!--</update>-->
+
+    <!--<select id="findUserByUsername" parameterType="java.lang.String" resultType="com.em.smart.pojo.SsUser">-->
+        <!--SELECT * FROM ss_user WHERE username = #{username};-->
+    <!--</select>-->
+
+    <!--<select id="findUserById" parameterType="com.em.smart.pojo.SsUser" resultType="com.em.smart.pojo.SsUser">-->
+        <!--SELECT * FROM ss_user WHERE id = #{id};-->
+    <!--</select>-->
+
+</mapper>
